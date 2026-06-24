@@ -65,4 +65,4 @@ A web interface where municipalities can track and prioritize the top 20 acciden
 
 ## Product Backlog URL
 
-[https://miro.com/app/board/uXjVHCPgIbE=/]
+[View Product Backlog on Miro](https://miro.com/app/board/uXjVHCPgIbE=/)
