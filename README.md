@@ -14,7 +14,7 @@
 | Murad Maharramlı  | Data Science            | Product Owner |
 | Ayşegül Bülbül    | Artificial Intelligence | Developer     |
 | Mehmet Ali Bekmez | Data Science            | Developer     |
-| Arif Emre Sevil   | Artificial Intelligence | Developer     |
+| Arif Emre Sevil   | Data Science            | Developer     |
 
 ---
 
