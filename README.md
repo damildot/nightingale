@@ -1,20 +1,18 @@
-# nightingale
-
-# Kazadot AI
-
 ## Nightingale, Team-302
 
 ---
 
 ## Team Roles
 
-| Name              | Field                   | Role          |
-| ----------------- | ----------------------- | ------------- |
-| Damla Tatar       | Artificial Intelligence | Scrum Master  |
-| Murad Maharramlı  | Data Science            | Product Owner |
-| Ayşegül Bülbül    | Artificial Intelligence | Developer     |
-| Mehmet Ali Bekmez | Data Science            | Developer     |
-| Arif Emre Sevil   | Data Science            | Developer     |
+## Team Members
+
+| Name | Field | Role | Social |
+| ---- | ----- | ---- | ------ |
+| [Damla Tatar](https://github.com/damildot) | Artificial Intelligence | Scrum Master | <a href="https://www.linkedin.com/in/damla-tatar/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" /></a> |
+| [Murad Maharramlı](https://github.com/muradmaharramli) | Data Science | Product Owner | <a href="https://www.linkedin.com/in/murad-maharramli-aa9127380/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" /></a> |
+| [Ayşegül Bülbül](https://github.com/aysegulbulbul) | Artificial Intelligence | Developer | <a href="https://www.linkedin.com/in/ay%C5%9Feg%C3%BCl-b%C3%BClb%C3%BCl/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" /></a> |
+| [Mehmet Ali Bekmez](https://github.com/malibekmez) | Data Science | Developer | <a href="https://www.linkedin.com/in/mehmet-ali-bekmez-866b7a294/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" /></a> |
+| [Arif Emre Sevil](https://github.com/aemresevil) | Data Science | Developer | <a href="https://www.linkedin.com/in/emre-sevil/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" /></a> |
 
 ---
 
