@@ -1,8 +1,8 @@
 ## Nightingale, Team-302
 
----
+## Product Name
 
-## Team Roles
+**OURNB**
 
 ## Team Members
 
@@ -16,15 +16,19 @@
 
 ---
 
-## Product Name
-
-**Kazadot AI**
-
----
-
 ## Product Description
 
-Kazadot AI is a predictive analysis tool that analyzes historical accident data on the Turkish highway network (TURKSTAT 2025 data) alongside open municipal data to preemptively highlight high-risk road segments for drivers, courier networks, and city administrations. Unlike standard navigation applications that merely display current traffic, this project calculates the instantaneous "black spot" accident risk using machine learning (XGBoost). Furthermore, through integrated Artificial Intelligence Agents (AI Agents), it interprets risk analyses using natural language processing and provides autonomous intervention recommendations to municipal and fleet managers.
+Every year, millions of people relocate for work, education, family, or a better quality of life. However, traditional real estate platforms mainly focus on the physical features of a property, such as price, square meters, room count, or building age. They often fail to answer one of the most important questions in the decision-making process:
+
+**“What is it actually like to live in this neighborhood?”**
+
+**OURNB** is an AI-powered, map-based neighborhood intelligence platform designed to reduce this information gap in relocation and real estate decisions. Instead of evaluating only the house itself, OURNB helps users understand the social, logistical, and environmental character of a neighborhood before moving there.
+
+The platform allows users to explore neighborhoods through an interactive map interface and view a dynamic **Neighborhood Life Score** based on multiple factors such as transportation accessibility, social venue density, green areas, walkability, noise level, and daily life convenience. In addition to numerical scores, OURNB uses Large Language Models (LLMs) to analyze scattered user experiences and transform them into structured insights, summaries, advantages, disadvantages, and semantic tags.
+
+A key feature of the platform is the **AI Neighborhood Assistant**, which interprets users’ lifestyle preferences in natural language. For example, users can describe themselves as a remote worker, student, pet owner, parent, or someone looking for a quiet and social area. The assistant then compares these preferences with neighborhood scores and semantic insights to recommend the most suitable locations.
+
+At the end of the day, OURNB is not just a real estate search tool. It is a decision-support platform that helps people understand the life beyond the walls of a house. Because people do not only choose a home; they choose the streets, routines, sounds, opportunities, and lifestyle surrounding it.
 
 ---
 
