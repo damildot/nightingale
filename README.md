@@ -430,7 +430,6 @@ Each team member shared updates based on the following questions:
 [NeighborhoodAI.pdf](https://github.com/user-attachments/files/29674048/NeighborhoodAI.pdf)
 
 </details>
----
 
 ## Sprint Review
 
