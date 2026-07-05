@@ -269,6 +269,6 @@ Unlike short-term renters, this audience has a lower tolerance for making the wr
 
 ---
 
-<img width="2816" height="1536" alt="20b045a2-2138-4685-8e0f-fef0823fa811" src="https://github.com/user-attachments/assets/a7b6733d-eefa-4803-8f59-a96cf1d2b452" />
+
 
 
