@@ -412,6 +412,7 @@ Each team member shared updates based on the following questions:
 
 <details>
   <summary><h4>Sprint Board Update Screenshots</h4></summary>
+  
  <img width="1004" height="741" alt="Screenshot 2026-07-05 at 18 03 48" src="https://github.com/user-attachments/assets/a6318002-f69d-4879-9acd-e08f9f62e148" />
 
 </details>
