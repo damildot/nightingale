@@ -496,4 +496,228 @@ The Sprint Retrospective was held to evaluate the team’s collaboration, produc
 
 Sprint 1 was completed as a product discovery, planning, and alignment sprint. The team did not focus primarily on implementation during this sprint because the product idea changed and the MVP scope needed to be redefined.
 
-The main achievement of Sprint 1 was selecting a stronger and more focused product idea, **OURNB**, and preparing the team for a more development-oriented Sprint 2.
+
+</details>
+
+<details>
+  <summary><h2>Sprint 2</h2></summary>
+
+## Sprint Notes
+
+During Sprint 2, the team moved from product discovery and planning into active development.
+
+After finalizing the product direction in Sprint 1, the team started developing the first functional version of **OURNB**. The application is currently being developed as a web-based prototype, while mobile development continues in parallel.
+
+The team also created user personas to better understand the needs of the target audience and to guide feature prioritization. These personas helped clarify how different users, such as remote workers, young professionals, and home buyers, would interact with the product.
+
+During this sprint, the team focused on building the technical foundation of the MVP. Backend development was started with FastAPI, mock neighborhood data was prepared, and the first AI-powered neighborhood summary endpoint was planned and implemented. On the frontend side, the team worked on the Vite/React structure, map-based interface, and sidebar UI.
+
+The team also discussed and followed a clearer engineering workflow. Instead of waiting until the end of the sprint, completed features were planned to be merged continuously after testing. This helped reduce integration risks between backend, frontend, and AI-related features.
+
+Throughout the week, Daily Scrum updates were carried out through Slack messages. Team members shared development progress, discussed blockers, and coordinated frontend, backend, AI, and mobile tasks.
+
+---
+
+## Expected Point Completion within Sprint
+
+**Expected Point Completion:** 160 points
+
+---
+
+## Point Completion Logic
+
+Sprint 2 was planned as a development-focused sprint. The main focus was building the first working version of OURNB, preparing mock data, connecting frontend and backend components, creating personas, and continuing mobile development.
+
+| Task | Point |
+|---|---:|
+| Sprint 2 planning and task distribution | 10 |
+| API contract and technical structure planning | 10 |
+| Mock neighborhood data preparation | 15 |
+| FastAPI backend setup | 20 |
+| Neighborhood summary endpoint implementation | 20 |
+| Vite/React frontend setup | 15 |
+| Leaflet map interface development | 20 |
+| Sidebar UI development | 15 |
+| Frontend-backend API connection | 15 |
+| Persona creation | 10 |
+| Mobile development progress | 10 |
+| Sprint documentation and README updates | 10 |
+| **Total** | **160** |
+
+**Point Completion:** 160 points completed
+
+The Sprint 2 target was completed because the team started active development, created the backend and frontend foundations, prepared mock neighborhood data, worked on AI-generated summaries, created personas, and continued mobile development.
+
+---
+
+## Backlog Management and User Story Selection
+
+During Sprint 2, the backlog was updated according to the development needs of the MVP.
+
+Since Sprint 1 focused on product direction and planning, Sprint 2 focused on turning the selected idea into a working prototype. The selected user stories were chosen based on technical dependency, MVP value, and demo potential.
+
+The team focused on the following product flow:
+
+1. The user opens the application.
+2. The user views neighborhoods on a map.
+3. The user clicks on a neighborhood marker.
+4. The system displays neighborhood details in a sidebar.
+5. The system generates an AI-powered neighborhood summary.
+6. The user can continue exploring the product through web and mobile interfaces.
+
+Based on this flow, the team selected user stories related to backend setup, map interaction, AI summary generation, UI structure, and persona-based product validation.
+
+### Selected User Stories for Sprint 2
+
+| Priority | User Story | Description | Status |
+|---|---|---|---|
+| High | As a user, I want to view neighborhoods on a map so that I can explore different areas visually. | Map-based neighborhood discovery | Done |
+| High | As a user, I want to click on a neighborhood marker so that I can view detailed information about that area. | Interactive map marker flow | Done |
+| High | As a user, I want to see an AI-generated neighborhood summary so that I can quickly understand the area. | AI-powered summary endpoint | Done |
+| High | As a user, I want to view neighborhood information in a sidebar so that I can read insights without leaving the map. | Sidebar UI | Done |
+| Medium | As a user, I want to ask questions about a selected neighborhood so that I can receive more personalized information. | Stateful chat assistant | In Progress |
+| Medium | As a team, we want to use mock neighborhood data so that the MVP can be tested without waiting for real data collection. | Mock data layer | Done |
+| Medium | As a mobile user, I want the product to continue toward a mobile-first experience. | Mobile development | In Progress |
+
+### Backlog Selection Criteria
+
+The team selected backlog items using the following criteria:
+
+- Relevance to the MVP
+- Technical dependency order
+- Frontend-backend integration needs
+- AI feature visibility
+- Demo value
+- Development feasibility within the sprint
+- Product roadmap alignment
+
+The highest priority was given to features that would make OURNB functional as a prototype: backend API, mock data, map interface, sidebar UI, and AI-generated neighborhood summaries.
+
+---
+
+## Daily Scrum
+
+Daily Scrum updates were carried out through Slack messages during Sprint 2.
+
+Since the team worked remotely, Slack was used as the main communication channel for development updates, task coordination, and blocker tracking.
+
+Each team member shared updates based on the following questions:
+
+1. What did I work on?
+2. What will I work on next?
+3. Is there any blocker?
+
+### Daily Scrum Summary
+
+| Topic | Description |
+|---|---|
+| Communication Channel | Slack |
+| Format | Message-based Daily Scrum |
+| Main Focus | Backend, frontend, AI integration, personas, and mobile development |
+| Responsible Person | Damla Tatar |
+
+### Daily Scrum Notes
+
+- The team shared backend and frontend development updates.
+- Mock neighborhood data was prepared and discussed.
+- AI-generated neighborhood summary logic was planned.
+- Web-based prototype development continued.
+- Mobile development also continued in parallel.
+- Personas were created to support product decisions.
+- Team members discussed blockers and integration issues through Slack.
+
+<details>
+  <summary><h4>Daily Scrum Screenshots</h4></summary>
+
+<img width="707" height="458" alt="Screenshot 2026-07-19 at 11 27 58" src="https://github.com/user-attachments/assets/a04450a7-1029-4ac0-941e-6ced247333f8" />
+<img width="686" height="508" alt="Screenshot 2026-07-19 at 11 28 45" src="https://github.com/user-attachments/assets/5ad68e02-cada-475b-941e-89c9dc2b1a37" />
+<img width="701" height="252" alt="Screenshot 2026-07-19 at 11 28 32" src="https://github.com/user-attachments/assets/871d9fdf-a974-4e93-a176-b38dd9ed0da5" />
+
+</details>
+
+---
+
+<details>
+  <summary><h4>Sprint Board Update Screenshots</h4></summary>
+  
+</details>
+
+---
+<details>
+  <summary><h4>Product Status Screenshots</h4></summary>
+  
+</details>
+
+---
+
+<details>
+    <summary><h4>Personas</h4></summary>
+During Sprint 2, the team created personas to better understand OURNB’s target users and their needs.
+
+### Persona 1: Remote Relocator
+
+A young professional moving to a new city for work or education. This user needs reliable neighborhood information before renting or buying a home.
+
+### Persona 2: Remote Worker
+
+A freelancer or remote employee who needs a quiet, connected, and comfortable neighborhood for both living and working.
+
+### Persona 3: First-Time Home Buyer
+
+A young family or individual planning to buy a home and looking for data-driven neighborhood insights before making a long-term financial decision.
+
+
+</details>
+
+---
+
+## Sprint Review
+
+During the Sprint Review, the team discussed the development progress made during Sprint 2.
+
+The main focus of the review was the first functional web-based version of **OURNB**. The team reviewed the backend structure, mock neighborhood data, map-based frontend, sidebar UI, AI-generated neighborhood summary feature, personas, and ongoing mobile development.
+
+The team agreed that Sprint 2 successfully moved the project from planning into implementation. The web-based prototype made the product idea more concrete and created a stronger foundation for the next stage of development.
+
+
+---
+
+## Sprint Retrospective
+
+The Sprint Retrospective was held to evaluate the team’s collaboration and development process during Sprint 2.
+
+### What Went Well?
+
+- The team moved from planning into active development.
+- The backend structure was created.
+- Mock neighborhood data was prepared.
+- The frontend map interface was developed.
+- Sidebar UI was created for neighborhood details.
+- AI-generated summary feature was planned and integrated into the product flow.
+- Personas helped clarify user needs.
+- Mobile development continued in parallel.
+- The team communicated regularly through Slack.
+
+### What Did Not Go Well?
+
+- Frontend-backend integration required careful API contract management.
+- The stateful chat assistant was more complex than expected.
+- Some UI details needed more polish.
+- Real neighborhood data collection still needs further research.
+- Developing both web and mobile versions in parallel created coordination challenges.
+
+### What Can Be Improved?
+
+- API contracts should be documented clearly before implementation.
+- Sprint board updates should be maintained more regularly.
+- UI and backend testing should be done together earlier.
+- Data requirements should be clarified before feature development.
+- Product screenshots should be collected more consistently during the sprint.
+
+---
+
+## Other Notes
+
+The team is currently behind the planned schedule. Some Sprint 2 tasks took longer than expected, so time management and task tracking need to be improved.
+
+</details>
