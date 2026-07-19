@@ -1,0 +1,352 @@
+[
+  {
+    "id": "goztepe",
+    "name": "Göztepe Mahallesi",
+    "city": "İzmir",
+    "district": "Konak",
+    "lat": 38.4012,
+    "lng": 27.0891,
+    "life_score": 82,
+    "district_score": 85,
+    "avg_age_profile": "Genç ve Orta Yaş (25-45)",
+    "grocery_access_profile": "Çok Kolay (Yürüme 3 dk, bakkal ve süpermarketler yan yana)",
+    "noise_level_profile": "Orta (Mithatpaşa Caddesi üstü gürültülü, iç sokaklar sessiz)",
+    "metrics": {
+      "transportation": 95,
+      "social": 88,
+      "green_ratio": 72,
+      "quietness": 60
+    },
+    "reviews": [
+      {
+        "author": "Caner Demir",
+        "role": "Yazılım Geliştirici",
+        "rating": 5,
+        "text": "Sahil şeridine paralel olması harika. Tramvay ve metroya çok yakınım. Evden çıkıp 5 dakika içinde deniz havası alabiliyorum. İnternet altyapısı çok stabil, fiber bağlantı hızı yüksek. Akşamları kafeler çok keyifli, tam uzaktan çalışanlara göre.",
+        "date": "2026-05-12"
+      },
+      {
+        "author": "Buse Aktaş",
+        "role": "Öğrenci",
+        "rating": 4,
+        "text": "Göztepe tam bir genç mahallesi. Sosyal alanlar ve üçüncü nesil kahveciler çok yoğun. Metro ile Dokuz Eylül veya Ege Üniversitesi taraflarına gitmek nispeten kolay. Tek dezavantajı kiraların bütçeme göre biraz yüksek olması.",
+        "date": "2026-06-02"
+      },
+      {
+        "author": "Meltem Yılmaz",
+        "role": "Serbest Çevirmen",
+        "rating": 4,
+        "text": "Mahalle çok enerjik ve canlı ama Mithatpaşa Caddesi üzerindeki evlerde gürültü sorunu olabiliyor. Akşam saatlerinde trafik sesi biraz rahatsız edici. Ara sokaklardaki binalarda oturursanız çok daha sessiz ve konforlu bir hayatınız olur.",
+        "date": "2026-04-20"
+      },
+      {
+        "author": "Ahmet Kaya",
+        "role": "Emekli Öğretmen",
+        "rating": 3,
+        "text": "Yürüyüş yolları ve parklar güzel ama hafta sonları sahil çok kalabalık oluyor. Otopark bulmak büyük bir çile. Gençler için harika bir yer ama yaşlılar için gürültülü gelebilir.",
+        "date": "2026-03-15"
+      },
+      {
+        "author": "Zeynep Şahin",
+        "role": "Ev Hanımı",
+        "rating": 5,
+        "text": "Çocuklu aileler için sahil parkı mükemmel bir oyun alanı. Marketler, eczaneler ve hastaneler elinizin altında. Her yere yürüyerek ulaşabilmek büyük bir lüks.",
+        "date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "id": "moda",
+    "name": "Moda (Caferağa)",
+    "city": "İstanbul",
+    "district": "Kadıköy",
+    "lat": 40.9858,
+    "lng": 29.0267,
+    "life_score": 88,
+    "district_score": 92,
+    "avg_age_profile": "Genç Profesyonel ve Sanatçı (22-40)",
+    "grocery_access_profile": "Çok Kolay (Nostaljik bakkallar, manavlar ve gurme marketler bolca mevcut)",
+    "noise_level_profile": "Orta-Düşük (Hafta sonu kalabalık gürültüsü var, ancak hafta içi huzurlu)",
+    "metrics": {
+      "transportation": 85,
+      "social": 96,
+      "green_ratio": 80,
+      "quietness": 65
+    },
+    "reviews": [
+      {
+        "author": "Deniz Yıldız",
+        "role": "UI/UX Tasarımcı",
+        "rating": 5,
+        "text": "Moda tam bir yaratıcı profesyonel cenneti. Her köşe başında laptopu kapıp çalışabileceğiniz butik kahveciler var. Akşamları Yoğurtçu Parkı veya Moda Sahili'nde yürümek tüm günün stresini alıyor. Evcil hayvan dostu bir mahalle olması benim için en büyük artı.",
+        "date": "2026-06-18"
+      },
+      {
+        "author": "Murat Çelik",
+        "role": "Girişimci",
+        "rating": 5,
+        "text": "Kadıköy rıhtıma ve vapur iskelelerine yürüyüş mesafesinde. Karşıya (Beşiktaş/Eminönü) geçmek vapurla çok pratik. Fiber altyapı çoğu binada mevcut. Mahallenin kendine has entelektüel bir ruhu var.",
+        "date": "2026-07-02"
+      },
+      {
+        "author": "Aylin Yurtseven",
+        "role": "Grafik Sanatçısı",
+        "rating": 4,
+        "text": "Kültür merkezleri, tiyatrolar, sergiler ayağımızın altında. Sokak sanatı ve tasarım dükkanları her yerde. Tek sorun hafta sonları dışarıdan gelen aşırı kalabalık. Sessizlik arıyorsanız hafta sonu evde kalmak isteyebilirsiniz.",
+        "date": "2026-05-25"
+      },
+      {
+        "author": "Hasan Arslan",
+        "role": "Emekli Bankacı",
+        "rating": 4,
+        "text": "Sokaklar genelde düz ayak, yürümek çok rahat. Kadıköy Belediyesi'nin sosyal imkanları çok iyi. Ancak binalar oldukça eski, deprem riski düşündürüyor. Kiralar ve ev fiyatları ise inanılmaz uçmuş durumda.",
+        "date": "2026-04-10"
+      },
+      {
+        "author": "Ece Demir",
+        "role": "Pazarlama Müdürü",
+        "rating": 5,
+        "text": "Köpeğimle birlikte çok mutlu olduğum tek yer burası. Kafelerin %90'ı pet-friendly. Sokak hayvanlarına karşı çok duyarlı ve sevgi dolu bir mahalle halkı var.",
+        "date": "2026-07-14"
+      }
+    ]
+  },
+  {
+    "id": "besiktas",
+    "name": "Sinanpaşa (Merkez)",
+    "city": "İstanbul",
+    "district": "Beşiktaş",
+    "lat": 41.0428,
+    "lng": 29.0075,
+    "life_score": 85,
+    "district_score": 89,
+    "avg_age_profile": "Üniversiteli Gençlik ve Esnaf (18-35)",
+    "grocery_access_profile": "Mükemmel (Tarihi Beşiktaş Çarşısı, her türlü dükkan, bakkal ve pazar yürüme mesafesinde)",
+    "noise_level_profile": "Yüksek (Sürekli insan sirkülasyonu, sokak müzisyenleri ve maç günleri yüksek tezahürat)",
+    "metrics": {
+      "transportation": 98,
+      "social": 95,
+      "green_ratio": 55,
+      "quietness": 40
+    },
+    "reviews": [
+      {
+        "author": "Barış Özcan",
+        "role": "Öğrenci",
+        "rating": 5,
+        "text": "Beşiktaş tam bir öğrenci ve gençlik merkezi! Çarşı her zaman cıvıl cıvıl, ucuz yemek seçenekleri ve kafeler bol. Vapur iskeleleri sayesinde her yere (Üsküdar, Kadıköy, Boğaz hattı) ulaşım mükemmel. Otobüs ve minibüs hatları da çok yaygın.",
+        "date": "2026-07-05"
+      },
+      {
+        "author": "Gökhan Kılıç",
+        "role": "Finans Analisti",
+        "rating": 4,
+        "text": "Lokasyon olarak İstanbul'un kalbi. Plaza bölgelerine (Levent, Maslak) metro ve otobüsle gitmek çok kolay. Sosyal hayat inanılmaz hareketli. Ancak hafta içi ve hafta sonu her saat çok gürültülü ve kalabalık. Sakinlik arayanlara göre kesinlikle değil.",
+        "date": "2026-06-20"
+      },
+      {
+        "author": "Yasemin Kaya",
+        "role": "İç Mimar",
+        "rating": 4,
+        "text": "Burada yaşarken arabaya kesinlikle ihtiyaç yok, zaten arabanız varsa park edecek yer bulamazsınız. Sokaklar dar ve otopark sorunu kronik. Sosyal imkanlar, restoranlar, barlar ve kafeler harika. Abbasağa Parkı nefes alabileceğiniz tek yeşil alan diyebilirim.",
+        "date": "2026-05-30"
+      },
+      {
+        "author": "Nalan Erdem",
+        "role": "Emekli Öğretmen",
+        "rating": 3,
+        "text": "Eski Beşiktaş'ı özlüyorum. Artık çok kalabalık, çok gürültülü oldu. Özellikle maç günlerinde çarşıya girmek imkansız hale geliyor. Ulaşım kolaylığı için buradayız ama yaşlandıkça gürültü çekilmez oluyor.",
+        "date": "2026-04-15"
+      },
+      {
+        "author": "Cem Tekin",
+        "role": "Yazılım Mühendisi",
+        "rating": 4,
+        "text": "Çarşının içindeki karmaşadan uzaklaşmak için üst sokakları (Türkali veya Vişnezade gibi) tercih ederseniz hem ulaşıma yakın kalıp hem de görece daha sakin bir hayat yaşayabilirsiniz. İnternet altyapısı fena değil.",
+        "date": "2026-07-10"
+      }
+    ]
+  },
+  {
+    "id": "nisantasi",
+    "name": "Teşvikiye",
+    "city": "İstanbul",
+    "district": "Şişli",
+    "lat": 41.0526,
+    "lng": 28.9902,
+    "life_score": 90,
+    "district_score": 87,
+    "avg_age_profile": "Orta-Üst Yaş ve Sosyetik Profesyoneller (30-65)",
+    "grocery_access_profile": "Çok Kolay (Şık şarküteriler, manavlar ve ünlü gurme bakkallar yaygın)",
+    "noise_level_profile": "Orta (Vali Konağı trafiği yoğun ancak arka sokaklar nezih ve sakindir)",
+    "metrics": {
+      "transportation": 90,
+      "social": 92,
+      "green_ratio": 65,
+      "quietness": 70
+    },
+    "reviews": [
+      {
+        "author": "Selin Saygın",
+        "role": "Moda Tasarımcısı",
+        "rating": 5,
+        "text": "Nişantaşı, İstanbul'un en elit ve nezih semtlerinden biri. Abdi İpekçi Caddesi'nde yürümek, lüks butikleri ve şık kafeleri gezmek harika bir his. Sanat galerileri ve restoran kalitesi çok üst düzeyde. Kendinizi güvende ve özel hissettiğiniz bir mahalle.",
+        "date": "2026-07-01"
+      },
+      {
+        "author": "Thomas Muller",
+        "role": "Yabancı Yönetici",
+        "rating": 5,
+        "text": "Expat olarak yaşamak için harika bir yer. İngilizce konuşma oranı çok yüksek. Maçka Parkı'na çok yakın olması köpeğimi gezdirmek ve yürüyüş yapmak için mükemmel bir fırsat sunuyor. Metro istasyonu sayesinde Taksim ve diğer merkezi yerlere erişim de çok kolay.",
+        "date": "2026-06-15"
+      },
+      {
+        "author": "Dr. Metin Tan",
+        "role": "Kardiyolog",
+        "rating": 5,
+        "text": "Amerikan Hastanesi başta olmak üzere many premium sağlık kuruluşu burada yer alıyor. Yaşlılar veya sağlık profesyonelleri için ideal. Otopark ücretleri çok yüksek ve sokaklar gün boyu yoğun trafik altında, araba kullanmak yerine yürümeyi tercih ediyorum.",
+        "date": "2026-05-18"
+      },
+      {
+        "author": "Burak Özdemir",
+        "role": "Dijital Pazarlama Direktörü",
+        "rating": 4,
+        "text": "Sosyal statüsü yüksek, internet altyapısı mükemmel ve nezih bir bölge. Ancak yaşam maliyeti ve kiralar çok ama çok yüksek. Bütçesi yüksek olanlar için İstanbul'daki en iyi yaşam kalitesini sunuyor diyebilirim.",
+        "date": "2026-07-08"
+      },
+      {
+        "author": "Fatma Şen",
+        "role": "Emekli",
+        "rating": 4,
+        "text": "Vali Konağı caddesi üzerinde yürümek keyifli ama yokuşlar bazen yorabiliyor. Sokaklarda yürürken çok sayıda kaldırım işgali var ama yine de nezih insanları ve sakin havasıyla favorim.",
+        "date": "2026-03-22"
+      }
+    ]
+  },
+  {
+    "id": "kuzguncuk",
+    "name": "Kuzguncuk",
+    "city": "İstanbul",
+    "district": "Üsküdar",
+    "lat": 41.0345,
+    "lng": 29.0305,
+    "life_score": 86,
+    "district_score": 83,
+    "avg_age_profile": "Aileler, Sanatçılar ve Yaşlılar (35-70)",
+    "grocery_access_profile": "Kolay (Nostaljik mahalle esnafı, yerel bostan ve manavlar, büyük süpermarket yok)",
+    "noise_level_profile": "Düşük (Kuş sesleri hakim, ana cadde dışında tamamen sessiz ve huzurlu)",
+    "metrics": {
+      "transportation": 80,
+      "social": 82,
+      "green_ratio": 92,
+      "quietness": 88
+    },
+    "reviews": [
+      {
+        "author": "Elif Sönmez",
+        "role": "Sanat Tarihçisi",
+        "rating": 5,
+        "text": "Kuzguncuk, İstanbul'un ortasında bir vaha gibi. Tarihi ahşap evleri, asırlık çınar ağaçları ve bostanıyla eski İstanbul mahalle kültürünü birebir yaşatıyor. Çok huzurlu, gürültüden uzak ve samimi bir komşuluk ilişkisi var.",
+        "date": "2026-06-25"
+      },
+      {
+        "author": "Emre Can",
+        "role": "Fotoğraf Sanatçısı",
+        "rating": 5,
+        "text": "Görsel olarak büyüleyici bir yer. Tarihi sokakları, butik fırınları ve tasarım atölyeleri ile sanatçılar için ilham verici. Üsküdar merkeze çok yakın olduğundan Marmaray ve metro hatlarına erişim kolay. Vapur iskelesi de çok nostaljik ve kullanışlı.",
+        "date": "2026-07-12"
+      },
+      {
+        "author": "Aylin & Can",
+        "role": "Yeni Evli / Finansçı",
+        "rating": 4,
+        "text": "Yeni evlendik ve burada yaşamak bir rüya gibi. Çok huzurlu ve yeşillikler içinde. Akşamları sahil kenarında yürüyüş yapmak harika. Ancak binalar çok eski ve ahşap olduğu için yalıtım zayıf olabiliyor ve ısınma maliyeti yüksek. Ayrıca büyük süpermarketler bulmak zor, esnaftan alışveriş yapıyoruz.",
+        "date": "2026-05-10"
+      },
+      {
+        "author": "Kemal Dedeler",
+        "role": "Yazar",
+        "rating": 5,
+        "text": "Gürültü yok, karmaşa yok. Sabahları sadece kuş sesleriyle uyanıyorum. İstanbul'da sakinlik ve huzur arıyorsanız Kuzguncuk tek adres. Bostanda kendi sebzelerini yetiştiren insanlar var, inanılmaz bir topluluk duygusu hakim.",
+        "date": "2026-04-02"
+      },
+      {
+        "author": "Merve Demir",
+        "role": "Veteriner Hekim",
+        "rating": 4,
+        "text": "Sokak hayvanları konusunda inanılmaz duyarlı bir semt. Mahalleli her kedi ve köpeği tanıyor ve bakıyor. Sosyal alanlar kısıtlı ama kaliteli. Hafta sonu kahvaltı kalabalığı dışında aşırı bir yoğunluğu yok.",
+        "date": "2026-07-15"
+      }
+    ]
+  },
+  {
+    "id": "bostanli",
+    "name": "Bostanlı",
+    "city": "İzmir",
+    "district": "Karşıyaka",
+    "lat": 38.4552,
+    "lng": 27.1005,
+    "life_score": 91,
+    "district_score": 90,
+    "avg_age_profile": "Modern Aileler, Genç Profesyoneller (28-55)",
+    "grocery_access_profile": "Çok Kolay (Her sokakta mini marketler, fırınlar ve bakkallar yürüme mesafesinde)",
+    "noise_level_profile": "Düşük-Orta (Sahildeki publar akşamları canlı, iç kesimler oldukça sessiz)",
+    "metrics": {
+      "transportation": 92,
+      "social": 94,
+      "green_ratio": 88,
+      "quietness": 75
+    },
+    "reviews": [
+      {
+        "author": "Onur Kaya",
+        "role": "Endüstri Mühendisi",
+        "rating": 5,
+        "text": "İzmir'de yaşanabilecek en medeni ve keyifli yerlerden biri. Bostanlı Rekreasyon Alanı, gün batımı izlemek, bisiklete binmek için mükemmel. Tramvay mahallenin içinden geçiyor ve vapur iskelesiyle Alsancak'a 15 dakikada geçebiliyorsunuz. İnternet hızı ve fiber her binada var.",
+        "date": "2026-06-10"
+      },
+      {
+        "author": "Seda Nur",
+        "role": "Diyetisyen",
+        "rating": 5,
+        "text": "Burada sağlıklı bir yaşam sürdürmek çok kolay. Sahildeki tartan pistte koşmak, taze sebze bulabileceğiniz yerel manavlar ve bakkalların yakınlığı harika. Oturan profil oldukça saygılı ve çağdaş insanlardan oluşuyor.",
+        "date": "2026-07-11"
+      }
+    ]
+  },
+  {
+    "id": "cankaya",
+    "name": "Bahçelievler",
+    "city": "Ankara",
+    "district": "Çankaya",
+    "lat": 39.9238,
+    "lng": 32.8315,
+    "life_score": 83,
+    "district_score": 88,
+    "avg_age_profile": "Öğrenciler ve Memur Aileleri (20-50)",
+    "grocery_access_profile": "Çok Kolay (7. Cadde üzerinde ve ara sokaklarda bakkallar ve zincir marketler bolca var)",
+    "noise_level_profile": "Orta-Yüksek (7. Cadde ve çevresi akşamları gürültülüyken, üst sokaklar çok sakindir)",
+    "metrics": {
+      "transportation": 88,
+      "social": 90,
+      "green_ratio": 60,
+      "quietness": 62
+    },
+    "reviews": [
+      {
+        "author": "Mert Aksoy",
+        "role": "Hukuk Öğrencisi",
+        "rating": 4,
+        "text": "Ankara'da sosyal yaşamın en canlı olduğu yerlerden biri Bahçelievler 7. Cadde. Üniversite kampüslerine ulaşım çok kolay, Ankaray istasyonu yürüme mesafesinde. Sokaklar her zaman hareketli. Tek problemimiz bazı binalarda yalıtım olmaması ve ısınma giderleri.",
+        "date": "2026-05-14"
+      },
+      {
+        "author": "Zekai T.",
+        "role": "Emekli Bürokrat",
+        "rating": 4,
+        "text": "Bahçeli çok eski ve köklü bir semttir. Bakkalımız Ahmet Efendi 30 yıldır burada. Herkes birbirini tanır. Ancak genç nüfus arttıkça bazı sokaklar gürültülü hale geldi, yine de Çankaya'nın göbeğinde olmak büyük rahatlık.",
+        "date": "2026-06-28"
+      }
+    ]
+  }
+]

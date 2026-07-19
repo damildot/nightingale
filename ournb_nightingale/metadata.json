@@ -1,0 +1,6 @@
+{
+  "name": "OURNB - Nightingale",
+  "description": "AI-powered, map-based neighborhood intelligence platform that evaluates the social, logistical, and environmental character of a neighborhood using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
