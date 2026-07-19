@@ -639,12 +639,19 @@ Each team member shared updates based on the following questions:
 
 <details>
   <summary><h4>Sprint Board Update Screenshots</h4></summary>
+  <img width="1173" height="924" alt="Screenshot 2026-07-19 at 23 56 26" src="https://github.com/user-attachments/assets/c965e28c-89bc-4bcd-b05a-6575b74c18e8" />
+
   
 </details>
 
 ---
 <details>
   <summary><h4>Product Status Screenshots</h4></summary>
+<img width="562" height="891" alt="Ekran görüntüsü 2026-07-19 113359" src="https://github.com/user-attachments/assets/4819bcbb-f7f6-4a54-a710-59255b6cd771" />
+<img width="538" height="671" alt="Ekran görüntüsü 2026-07-19 113344" src="https://github.com/user-attachments/assets/8b51a2ac-479f-4aad-ba4c-cd0d2fa7999f" />
+<img width="532" height="678" alt="Ekran görüntüsü 2026-07-19 113321" src="https://github.com/user-attachments/assets/443c741a-02f0-448f-a457-a4a8bd87f52d" />
+<img width="1907" height="893" alt="Ekran görüntüsü 2026-07-19 113230" src="https://github.com/user-attachments/assets/4fad2ba6-29f0-4343-aef5-9b443238a2a7" />
+
   
 </details>
 
