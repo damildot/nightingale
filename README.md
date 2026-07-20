@@ -661,17 +661,320 @@ Each team member shared updates based on the following questions:
     <summary><h4>Personas</h4></summary>
 During Sprint 2, the team created personas to better understand OURNB’s target users and their needs.
 
-### Persona 1: Remote Relocator
 
-A young professional moving to a new city for work or education. This user needs reliable neighborhood information before renting or buying a home.
+<br>
 
-### Persona 2: Remote Worker
+During Sprint 2, the core focus shifted toward building the behavioral and architectural foundation for our **AI Agent (Memory & Orchestration)** module. To validate the Product-Market Fit and test the recommendation algorithms, the team unified previous user research with structured technical data models, expanding our dataset to **13 comprehensive User Personas**. 
 
-A freelancer or remote employee who needs a quiet, connected, and comfortable neighborhood for both living and working.
+Rather than acting as mere conceptual profiles, these personas are explicitly engineered as relational data objects. They serve as our **Mock Data Pipeline (JSON format)** for future sprint simulations, logic validation, and system integration testing in Python/Node.js.
 
-### Persona 3: First-Time Home Buyer
+---
 
-A young family or individual planning to buy a home and looking for data-driven neighborhood insights before making a long-term financial decision.
+### 📊 Comprehensive User Persona Dataset (13 Unified Personas)
+
+#### 👤 Persona 1: Remote Relocator
+* **Scenario:** A young professional moving to a new city for work or education. This user needs reliable neighborhood information before renting or buying a home.
+
+```json
+{
+  "persona_id": "PER_001",
+  "segment": "Remote Relocator",
+  "priorities": ["neighborhood_safety", "rental_affordability", "onboarding_ease"]
+}
+```
+
+```mermaid
+graph LR
+    A[👤 Relocator] --> B{AI Search}
+    B --> C[🏠 Renting/Buying Match]
+    style C fill:#48BB78,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 2: Remote Worker
+* **Scenario:** A freelancer or remote employee who needs a quiet, connected, and comfortable neighborhood for both living and working.
+
+```json
+{
+  "persona_id": "PER_002",
+  "segment": "Remote Worker",
+  "priorities": ["acoustic_comfort", "infrastructure_stability", "workspace_proximity"]
+}
+```
+
+```mermaid
+graph LR
+    A[👤 Remote Employee] --> B{AI Engine}
+    B --> C[📶 Quiet & Connected Zone]
+    style C fill:#48BB78,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 3: First-Time Home Buyer
+* **Scenario:** A young family or individual planning to buy a home and looking for data-driven neighborhood insights before making a long-term financial decision.
+
+```json
+{
+  "persona_id": "PER_003",
+  "segment": "First-Time Home Buyer",
+  "priorities": ["long_term_value", "demographic_safety", "investment_risk"]
+}
+```
+
+```mermaid
+graph LR
+    A[👤 Home Buyer] --> B{Risk Analyzer}
+    B --> C[📈 Long-Term Safe Investment]
+    style C fill:#48BB78,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 4: "The Distant Migrant" – Relocating Engineer
+* **Scenario:** Relocating to a completely unfamiliar city due to a career shift. Relies entirely on objective data.
+
+```json
+{
+  "persona_id": "PER_004",
+  "segment": "Distant Migrant",
+  "age": 27,
+  "occupation": "Embedded Systems Engineer",
+  "priorities": ["transportation_speed", "fiber_internet", "cafe_density"],
+  "risk_tolerance": "Low",
+  "budget_group": "Medium-High"
+}
+```
+
+```mermaid
+graph LR
+    A[🚌 Transit] & B[📶 Fiber] --> C{AI Matcher}
+    C --> D[🟢 Target Vector]
+    style D fill:#3182CE,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 5: "The Location-Independent" – Digital Nomad
+* **Scenario:** Fully remote creative seeking a high-quality coastal or boutique neighborhood.
+
+```json
+{
+  "persona_id": "PER_005",
+  "segment": "Digital Nomad",
+  "age": 31,
+  "occupation": "UI/UX Designer",
+  "priorities": ["acoustic_comfort", "laptop_friendly_cafes", "infrastructure_stability"],
+  "risk_tolerance": "Medium",
+  "budget_group": "Medium"
+}
+```
+
+```mermaid
+graph LR
+    A[🔊 Low Noise] & B[☕ Cafes] --> C{Evaluator}
+    C --> D[🔵 Co-Working Hub]
+    style D fill:#3182CE,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 6: "The Conscious Family" – Strategic Investors
+* **Scenario:** A nuclear family purchasing their lifetime home. Their margin for error is zero.
+
+```json
+{
+  "persona_id": "PER_006",
+  "segment": "Family Investor",
+  "age": 35,
+  "occupation": "Finance Manager",
+  "priorities": ["safety_index", "green_areas", "school_quality"],
+  "risk_tolerance": "Zero",
+  "budget_group": "High"
+}
+```
+
+```mermaid
+graph LR
+    A[🛡️ Safety] & B[🌳 Parks] --> C{Risk AI}
+    C --> D[🟩 High-Value Residential]
+    style D fill:#3182CE,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 7: "The Active Retiree" – Healthcare Focus
+* **Scenario:** Senior citizens looking to downsize into a highly walkable, flat neighborhood.
+
+```json
+{
+  "persona_id": "PER_007",
+  "segment": "Active Retiree",
+  "age": 63,
+  "occupation": "Retired Teacher",
+  "priorities": ["healthcare_access", "flat_streets", "pedestrian_safety"],
+  "risk_tolerance": "Low",
+  "budget_group": "Medium"
+}
+```
+
+```mermaid
+graph LR
+    A[🏥 Healthcare] & B[🚶 Flat Streets] --> C{Filter}
+    C --> D[🟡 Accessible Zone]
+    style D fill:#DD6B20,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 8: "The Young Graduate" – Budget Living
+* **Scenario:** Entering the workforce, moving on a tight budget while prioritizing social life.
+
+```json
+{
+  "persona_id": "PER_008",
+  "segment": "Young Graduate",
+  "age": 23,
+  "occupation": "Data Analyst",
+  "priorities": ["low_cost", "public_transport", "nightlife_access"],
+  "risk_tolerance": "High",
+  "budget_group": "Low"
+}
+```
+
+```mermaid
+graph LR
+    A[🪙 Low Rent] & B[🚌 Transit] --> C{Optimizer}
+    C --> D[🔴 Dense Social Area]
+    style D fill:#E53E3E,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 9: "The Pet Owner" – Paws-Friendly Environments
+* **Scenario:** Neighborhood choice is strictly dictated by micro-amenities available for their dog.
+
+```json
+{
+  "persona_id": "PER_009",
+  "segment": "Pet Owner",
+  "age": 29,
+  "occupation": "Digital Marketing Manager",
+  "priorities": ["dog_parks", "pet_friendly_spaces", "veterinary_density"],
+  "risk_tolerance": "Medium",
+  "budget_group": "Medium-High"
+}
+```
+
+```mermaid
+graph LR
+    A[🛝 Dog Parks] & B[🩺 Vets] --> C{AI Check}
+    C --> D[🟢 Pet-Optimized Area]
+    style D fill:#48BB78,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 10: "The Wellness Enthusiast" – Sports Driven
+* **Scenario:** Daily routine centers around outdoor physical activities and clean eating.
+
+```json
+{
+  "persona_id": "PER_010",
+  "segment": "Fitness Enthusiast",
+  "age": 26,
+  "occupation": "Personal Trainer",
+  "priorities": ["running_tracks", "gym_density", "healthy_food_access"],
+  "risk_tolerance": "Medium",
+  "budget_group": "Medium"
+}
+```
+
+```mermaid
+graph LR
+    A[🏃 Track] & B[🏋️ Gyms] --> C{Index}
+    C --> D[🟢 Active Node]
+    style D fill:#48BB78,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 11: "The Creative Professional" – Art Centric
+* **Scenario:** Artist looking for a live-work setup in a neighborhood with a historical soul.
+
+```json
+{
+  "persona_id": "PER_011",
+  "segment": "Creative Professional",
+  "age": 33,
+  "occupation": "Artist",
+  "priorities": ["cultural_density", "historical_architecture", "art_galleries"],
+  "risk_tolerance": "High",
+  "budget_group": "Low-Medium"
+}
+```
+
+```mermaid
+graph LR
+    A[🎨 Art Spaces] & B[🏛️ Heritage] --> C{Ranker}
+    C --> D[🔵 Creative Quarter]
+    style D fill:#3182CE,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 12: "The International Expat" – Premium Relocation
+* **Scenario:** Multinational executive prioritizing maximum luxury, schooling, and safety.
+
+```json
+{
+  "persona_id": "PER_012",
+  "segment": "Expat",
+  "age": 42,
+  "occupation": "Production Manager",
+  "priorities": ["expat_community", "international_schools", "premium_safety"],
+  "risk_tolerance": "Low",
+  "budget_group": "Very High"
+}
+```
+
+```mermaid
+graph LR
+    A[🌍 Expat Comm] & B[🛡️ Premium Safety] --> C{Filter}
+    C --> D[🟩 Secured Sector]
+    style D fill:#48BB78,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+#### 👤 Persona 13: "The Startup Founder" – Ecosystem Oriented
+* **Scenario:** Entrepreneur requiring zero-lag technical infrastructure and proximity to tech parks.
+
+```json
+{
+  "persona_id": "PER_013",
+  "segment": "Entrepreneur",
+  "age": 28,
+  "occupation": "Startup Founder",
+  "priorities": ["technopark_proximity", "networking_spaces", "fiber_internet"],
+  "risk_tolerance": "High",
+  "budget_group": "Medium"
+}
+```
+
+```mermaid
+graph LR
+    A[💻 Tech Hub] & B[📶 Fiber] --> C{Connect}
+    C --> D[🔵 Innovation Hub]
+    style D fill:#3182CE,color:#FFF,stroke:#FFF;
+```
+
+<br>
+
+### 🎯 Automated Validation & Test-Case Execution Strategy
+This structured 13-persona mockup dataset serves as the logic parsing blueprint for our upcoming backend test cases. Automated validation scripts (written in Python/PyTest) will dynamically load these specific profiles to test our AI core. The testing pipeline evaluates whether the AI Agent’s mathematical weighting algorithm successfully cross-references these specific risk profiles against real geographic data matrices, ensuring an error-free user recommendation loop before moving into production.
+
 
 
 </details>
